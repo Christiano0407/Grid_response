@@ -59,6 +59,9 @@ body {
     padding-top: 1rem;
     box-sizing: border-box;
     margin: 6rem 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2rem;
 }
 .element3 {
     width: 6rem;
@@ -68,6 +71,9 @@ body {
     padding-top: 1rem;
     box-sizing: border-box;
     margin: 12rem 0;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
 }
 .element4 {
     width: 6rem;
@@ -77,6 +83,9 @@ body {
     padding-top: 1rem;
     box-sizing: border-box;
     margin: 0 auto;
+    line-height: 2rem;
+    vertical-align: top;
+    /*display: inline-block;*/
 }
 .element5 {
     width: 6rem;
@@ -104,6 +113,9 @@ body {
     padding-top: 1rem;
     box-sizing: border-box;
     margin: 0 0 0 auto;
+  /*   display: inline-block; */
+    line-height: 2rem;
+    vertical-align: top;
 }
 .element8 {
     width: 6rem;
