@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .5rem;
+    background-color: #ffffff;
+    width: 550px;
+}
+.container {
+    background-color: violet;
+    color: #000;
+    width: 18rem;
+    height: 18rem;
+}
+.element {
+    width: 6rem;
+    height: 6rem;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+
+}
+.container:nth-of-type(1) {
+    background-color: blue;
+}
+.element1 {
+    width: 6rem;
+    height: 6rem;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+.element2 {
+    width: 6rem;
+    height: 6rem;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 6rem 0;
+}
+.element3 {
+    width: 6rem;
+    height: 6rem;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 12rem 0;
+}
+.element4 {
+    width: 6rem;
+    height: 6rem;
+    background-color: green;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.element5 {
+    width: 6rem;
+    height: 6rem;
+    background-color: green;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 6rem auto;
+}
+.element6 {
+    width: 6rem;
+    height: 6rem;
+    background-color: green;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 0 0;
+}
+.element7 {
+    width: 6rem;
+    height: 6rem;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 0 0 0 auto;
+}
+.element8 {
+    width: 6rem;
+    height: 6rem;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 6rem 0 0 auto;
+}
+.element9 {
+    width: 6rem;
+    height: 6rem;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    margin: 12rem 0 0 auto;
+}
