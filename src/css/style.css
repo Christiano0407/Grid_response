@@ -30,6 +30,7 @@ body {
     color: #000;
     width: 18rem;
     height: 18rem;
+    flex-wrap: wrap;
 }
 .element {
     width: 6rem;
@@ -42,6 +43,9 @@ body {
 }
 .container:nth-of-type(1) {
     background-color: blue;
+}
+.container:last-child {
+    background-color: blueviolet;
 }
 .element1 {
     width: 6rem;
@@ -58,10 +62,10 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 6rem 0;
+   /*  margin: 6rem 0;
     display: inline-block;
     vertical-align: middle;
-    line-height: 2rem;
+    line-height: 2rem; */
 }
 .element3 {
     width: 6rem;
@@ -70,10 +74,10 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 12rem 0;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: bottom;
+    /* margin: 12rem 0;
+    display: inline-block; */
+   /*  line-height: 20px;
+    vertical-align: bottom; */
 }
 .element4 {
     width: 6rem;
@@ -82,9 +86,9 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 0 auto;
-    line-height: 2rem;
-    vertical-align: top;
+   /*  margin: 0 auto; */
+    /* line-height: 2rem;
+    vertical-align: top; */
     /*display: inline-block;*/
 }
 .element5 {
@@ -94,7 +98,7 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 6rem auto;
+    /* margin: 6rem auto; */
 }
 .element6 {
     width: 6rem;
@@ -103,7 +107,7 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 0 0;
+  /*   margin: 0 0; */
 }
 .element7 {
     width: 6rem;
@@ -112,10 +116,10 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 0 0 0 auto;
+ /*    margin: 0 0 0 auto; */
   /*   display: inline-block; */
-    line-height: 2rem;
-    vertical-align: top;
+   /*  line-height: 2rem;
+    vertical-align: top; */
 }
 .element8 {
     width: 6rem;
@@ -124,7 +128,7 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 6rem 0 0 auto;
+  /*   margin: 6rem 0 0 auto; */
 }
 .element9 {
     width: 6rem;
@@ -133,5 +137,5 @@ body {
     text-align: center;
     padding-top: 1rem;
     box-sizing: border-box;
-    margin: 12rem 0 0 auto;
+   /*  margin: 12rem 0 0 auto; */
 }
