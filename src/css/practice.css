@@ -60,7 +60,9 @@ text-align: center;
 }
 .card:nth-of-type(5) {
     background-color: gold;
+    align-self: center;
 }
 .card:last-child {
     background-color: violet;
+    justify-self: center;
 }
