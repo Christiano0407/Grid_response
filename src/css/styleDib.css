@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Background*/
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(100% 100% at -4.5% 0%, #72072b 0%,
+    #00001e 100%);
+    z-index: 1;
+    overflow: hidden;
+}
+
+/*Container*/
+.container {
+    z-index: 10;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container * {
+    position: relative;
+}
+
+/*Cuerpo*/
+.head {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 6rem;
+    width: 6rem;
+    background-color: #E6E6E6;
+    border-radius: 5rem 4rem;
+
+}
+.head .glass {
+background-color: #323351;
+width: 5rem;
+height: 4.5rem;
+border-radius: 2.5rem;
+
+}
+
+.body-top {
+    display: flex;
+    justify-content: space-between;
+    top: -.5rem;
+}
