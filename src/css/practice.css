@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+section {
+ width: 550px;
+ height: 500px;
+ background-color: gray;
+}
+ .container {
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .5rem;
+    background-color: rgb(226, 224, 224);
+    width: 100%;
+    height: 100%;
+}
+.card {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+.card:nth-of-type(1) {
+    background-color: tomato;
+}
+.card:nth-of-type(2) {
+    background-color: turquoise;
+}
+.card:nth-of-type(3){
+background-color: blue;
+width: 8rem;
+height: 8rem;
+justify-self: flex-end;
+text-align: center;
+}
+.card:last-child {
+    background-color: violet;
+}
