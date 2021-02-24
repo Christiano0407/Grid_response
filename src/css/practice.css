@@ -39,6 +39,14 @@ section {
 }
 .card:nth-of-type(2) {
     background-color: turquoise;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-image: url(../assets/img/jakob-owens-0Xl9HAf0RyE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 .card:nth-of-type(3){
 background-color: blue;
@@ -46,6 +54,12 @@ width: 8rem;
 height: 8rem;
 justify-self: flex-end;
 text-align: center;
+}
+.card:nth-of-type(4) {
+    background-color: deeppink;
+}
+.card:nth-of-type(5) {
+    background-color: gold;
 }
 .card:last-child {
     background-color: violet;
