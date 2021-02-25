@@ -53,6 +53,14 @@ html {
     top: 140px;
     left: 16px;
 }
+.left-avocado .medium-left::after {
+box-shadow: 19px -31px 39px 21px #9ECB6F;
+height: 122px;
+}
+.left-avocado .medium-left::before {
+ box-shadow: 25px -78px 36px 13px #9ecb6f;
+ height: 21PX;
+}
 .left-avocado .medium-right{
     right: 20px;
     top: 5px;
