@@ -128,3 +128,28 @@ border-radius: 2.5rem;
     position: relative;
     bottom: -.5rem;
 }
+.panza {
+    height: 7rem;
+    width: 6rem;
+    background-color: #e6e6e6;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+    border-top: #ccc solid .5rem;
+    border-bottom: #ccc solid .5rem;
+}
+.panza div {
+    background-color: #bdbec0;
+}
+.panza .screen {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+}
+.panza .belt {
+    height: 1rem;
+    width: 100%;
+}
