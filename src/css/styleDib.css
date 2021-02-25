@@ -63,3 +63,68 @@ border-radius: 2.5rem;
     justify-content: space-between;
     top: -.5rem;
 }
+.arm {
+    display: flex;
+    margin-top: .7rem;
+}
+.right-arm {
+    flex-direction: row;
+    left: -.5rem;
+}
+.arm .first {
+    height: .2rem;
+    width: 3.5rem;
+    background-color: azure;
+    border-radius: .8rem;
+    z-index: 7;
+}
+.arm .right-arm .first{
+ 
+}
+.arm .first::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: .2rem;
+    right: -3rem;
+    height: 2.4rem;
+    width: 1rem;
+    background-color: #cccccc;
+    border-radius: 5rem;
+    z-index: 10;
+}
+.arm .second {
+    height: 2rem;
+    width: 3rem;
+    background-color: azure;
+    border-radius: .8rem;
+    z-index: 6;
+}
+.arm .second::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: .2rem;
+    right: -2.4rem;
+    height: 2.4rem;
+    width: .8rem;
+    background-color: #cccccc;
+    border-radius: 5rem;
+    z-index: 10;
+}
+.arm .hand {
+    height: 2rem;
+    width: 1.8rem;
+    background-color: #bdbec0;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.arm .hand::before {
+    content: "";
+    height: 1.2rem;
+    width: .6rem;
+    background-color: #bdbec0;
+    border-radius: 1rem 1rem 0rem 0rem;
+    display: inline-block;
+    position: relative;
+    bottom: -.5rem;
+}
