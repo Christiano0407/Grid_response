@@ -194,5 +194,35 @@ height: 122px;
   box-shadow: inset 16px 1px 7px 5px #0a7b35, inset -2px -9px 11px -8px #fff;
   }
   .stem {
-      
+      height: 74px;
+      width: 17px;
+      position: absolute;
+      background: linear-gradient(to right, #307933 3%, #9bdc50 39%, #389e3d 67%, #307933);
+      left: 152px;
+      top: -60px;
+      transform: rotate(18deg);
+      border-radius: 50% 11%;
+      box-shadow: inset 0px -11px 5px 1px #14532C, inset -1px 9px 8px 0px #f5f7b8;
+  }
+  .stem::before {
+    content: "";
+    display: block;
+    background: linear-gradient(to right, #539335, #137739);
+    width: 53px;
+    height: 14px;
+    position: absolute;
+    right: 0px;
+    top: 32px;
+    transform: rotateX(132deg) rotateY(146deg);
+    border-radius: 2ch 0 0% 4px;
+    box-shadow: -1px -2px 5px 1px #539335;
+  }
+  .left-avocado::after, .right-avocado::after{
+    content: "";
+      display: block;
+      position: absolute;
+      bottom: 10px;
+      z-index: 0;
+      width: 147px;
+      box-shadow: 43px 8px 46px 12px #525050;
   }
