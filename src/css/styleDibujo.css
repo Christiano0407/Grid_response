@@ -75,4 +75,66 @@ height: 122px;
       background: linear-gradient(71deg, #A6C620 12%, 
       #2c752E 54%, #14532C 81%);
   }
-  
+  .left-avocado .bottom {
+      width: 210px;
+      height: 283px;
+      transform: rotate(10deg);
+      background: linear-gradient(93deg, #A6C620 0%, #2c752f 28%, 
+      #14532C 45%, #14532C 53%, 
+      #2c752f 81%, #A6C620 125%);
+  }
+  .left-avocado .bottom, .right-avocado .bottom {
+      position: absolute;
+      border-radius: 50%;
+      bottom: 0;
+      left: 3px;
+  }
+  .right-avocado > div:first-child {
+      transform: translate(-17px, 1px) rotate(6deg);
+      height: 100%;
+  }
+  .right-avocado .bottom {
+      width: 224px;
+      height: 226px;
+      transform: rotate(-10deg);
+      background: #F2ED89;
+      overflow: hidden;
+      box-shadow: inset 0px -23px 50px -7px #A6C620;
+  }
+  .right-avocado > div:first-child > .medium-left {
+      background: #145329;
+      box-shadow: none;
+  }
+  .right-avocado > div:last-child > div {
+      background: #F2ED89;
+  }
+  .right-avocado > div:last-child > .medium-right {
+      box-shadow: inset 21px 10px 26px -9px #A6C620, 
+      -13px -11px 7px -11px #145329;
+      border-left: 2px solid #145329;
+      border-top: 2px solid #145329;
+  }
+  .right-avocado > div:last-child > .medium-left {
+      border-right: 2px solid #145329;
+  }
+  .right-avocado > div:last-child > .bottom {
+      box-shadow: inset 55px -20px 22px -45px #A6C620,
+      inset -50px 5px 20px -42px #A6C620, -20px 12px 0px -22px
+      #14532C;
+      border-bottom: 2px solid #145329;
+      z-index: 1;
+  }
+  .right-avocado > div:first-child > .bottom {
+      box-shadow: inset 0px 23px 50px 7px #A6C620,
+      inset -9px -3px 7px 7px #14532C;
+  }
+  .right-avocado .medium-right {
+      width: 75px;
+      right: 152px;
+      height: 242px;
+      top: 28px;
+      transform: rotate(7deg);
+      overflow: hidden;
+      border-radius: 5ch 50%;
+      box-shadow: inset 21px 10px 26px -9px #A6C620;
+  }
