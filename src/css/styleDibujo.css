@@ -68,3 +68,11 @@ height: 122px;
     background: linear-gradient( -71deg, #A6C620 -36%,
     #2C752E 40%, #14532C 81%);
   }
+  .left-avocado .medium-left {
+      right: 119px;
+      top: -20px;
+      transform: rotate(35deg);
+      background: linear-gradient(71deg, #A6C620 12%, 
+      #2c752E 54%, #14532C 81%);
+  }
+  
