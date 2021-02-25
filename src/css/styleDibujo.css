@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid transparent;
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+.left-avocado {
+    margin-left: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+.left-avocado,.right-avocado {
+    width: 227px;
+    height: 340px;
+}
+/*RIGHT*/
+.right-avocado {
+    position: absolute;
+    top: 119px;
+    right: 50px;
+    z-index: 1;
+}
+
+.left-avocado > div, .right-avocado > div > div {
+    position: absolute;
+}
+
+.left-avocado .medium-right, .left-avocado .medium-left,
+.right-avocado .medium-left, .right-avocado .medium-left {
+    width: 60px;
+    height: 230px;
+    z-index: 1;
+    border-radius: 1in 1in 147% 149%;
+}
+.left-avocado .medium-left::after,
+.left-avocado .medium-left::before {
+    content: "";
+    transform: rotate(-13deg) translate(9px, 21px);
+    display: block;
+    width: 0px;
+    position: absolute;
+    top: 140px;
+    left: 16px;
+}
+.left-avocado .medium-right{
+    right: 20px;
+    top: 5px;
+    transform: rotate(-10deg);
+    background: linear-gradient( -71deg, #A6C620 -36%,
+    #2C752E 40%, #14532C 81%);
+  }
