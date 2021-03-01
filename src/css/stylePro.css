@@ -10,10 +10,7 @@ body {
     width: 100%;
     height: 100vh;
 }
-main {
-    margin-bottom: 2rem;
-}
-.container {
+/* .container {
     width: 100vw;
     height: 75vh;
     background-color: lightgray;
@@ -33,7 +30,6 @@ main {
 }
 .itemTwo {
   grid-area: main;
-/*   background-color: limegreen; */
   background-image: url(../assets/img/jakob-owens-0Xl9HAf0RyE-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,9 +42,9 @@ main {
 .itemFour {
   grid-area: footer;
   background-color: lightgoldenrodyellow;
-}
+} */
 
-.wrapper {
+/* .wrapper {
     background-color: lightpink;
     width: 100vw;
     height: 75vh;
@@ -67,7 +63,6 @@ main {
 }
 .item:nth-last-of-type(2) {
     grid-area: main;
-  /*   background-color: mediumturquoise; */
     background-image: url(../assets/img/jakob-owens-0Xl9HAf0RyE-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -80,4 +75,4 @@ main {
 .item:nth-last-of-type(4) {
     grid-area: footer;
     background-color: black;
-}
+} */
