@@ -76,3 +76,44 @@ body {
     grid-area: footer;
     background-color: black;
 } */
+
+/* Practice Two*/
+/* main {
+    width: 100%;
+    height: 75vh;
+    background-color: lightslategray;
+}
+.container {
+    width: 750px;
+    height: 500px;
+    background-color: lightseagreen;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 10px;
+}
+.item {
+    background-color: magenta;
+}
+.item:nth-of-type(2) {
+    background-color: mediumblue;
+} */
+.grid-container {
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    width: 200px;
+    height: 200px;
+    border: 4px dotted lightpink;
+}
+.container {
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+
+}
+.item {
+    background-color: magenta;
+    border: 1px solid red;
+}
