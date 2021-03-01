@@ -133,6 +133,7 @@ body {
     width: 100vw;
     height: 75vh;
     background-color: lightseagreen;
+   
     gap: .5rem;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
