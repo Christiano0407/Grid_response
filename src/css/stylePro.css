@@ -161,6 +161,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .item:last-child {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
