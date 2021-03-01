@@ -10,7 +10,9 @@ body {
     width: 100%;
     height: 100vh;
 }
-
+main {
+    margin-bottom: 2rem;
+}
 .container {
     width: 100vw;
     height: 75vh;
@@ -44,4 +46,38 @@ body {
 .itemFour {
   grid-area: footer;
   background-color: lightgoldenrodyellow;
+}
+
+.wrapper {
+    background-color: lightpink;
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 1fr 30px;
+    gap: 5px;
+    margin-bottom: 2rem;
+    grid-template-areas: "header header header header"
+                         "main   main   sidebar sidebar"
+                         "footer footer footer  footer";
+}
+.wrapper > .item {
+    grid-area: header;
+    background-color: magenta;
+}
+.item:nth-last-of-type(2) {
+    grid-area: main;
+  /*   background-color: mediumturquoise; */
+    background-image: url(../assets/img/jakob-owens-0Xl9HAf0RyE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item:nth-last-of-type(3) {
+    grid-area: sidebar;
+    background-color: lightslategray;
+}
+.item:nth-last-of-type(4) {
+    grid-area: footer;
+    background-color: black;
 }
