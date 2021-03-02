@@ -68,8 +68,51 @@ body {
     height: 50vh;
     background-color: lightblue;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .childs {
     background-color: blue;
     border: 3px solid red;
+}
+
+.link {
+    width: 100vw;
+    height: 50vh;
+    background-color: lightcoral;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.links {
+    background-color: lightsteelblue;
+    border: 2px solid red;
+}
+.links:nth-of-type(2) {
+    background-image: url(../assets/icon/jakob-owens-ycExgCMRggc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.links:nth-of-type(4) {
+    background-image: url(../assets/icon/jakob-owens-ycExgCMRggc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banco {
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(375px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 2rem;
+    gap: 5px;
+    background-color: lightslategray;
+}
+.box {
+ border: 2px solid red;
 }
