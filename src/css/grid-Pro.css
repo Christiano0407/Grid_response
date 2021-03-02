@@ -6,8 +6,25 @@
 html {
     font-size: 62.5%;
 }
+:root {
+    --blue: #81ccf1;
+    --yellow: #efc66a;
+    --pink: #d8a6cb;
+    --dark-pink: #c59ece;
+    --purple: #9996cb;
+  }
 body {
     width: 100%;
     height: 100vh;
-    background-color: lightgray;
+    background-image: linear-gradient(to top, #81ccf1,
+    #ab99cc, #bb9dcd, #caa1cc, #d8a6cb);
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(10, 1fr), repeat(10, 1fr);
+
 }
