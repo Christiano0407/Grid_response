@@ -110,11 +110,10 @@ body {
     border: 5px solid rgb(3, 255, 3);
 }
 .item-12 {
-    grid-column: 7 / 11;
-    grid-row: 1 / 4;
-    background-color: magenta;
-    border-radius: 200px;
-    opacity: .7;
+    grid-column: 9 / 11;
+    grid-row: 2 / 4;
+    opacity: .5;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 /*Segundo Ejecicio*/
 /* .wrapper {
